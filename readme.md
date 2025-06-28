@@ -3,7 +3,7 @@
 1. [List of Window Flags](#list-of-window-flags)
 2. [Flag Notes](#flag-notes)
 
-This repo holds the source used in my Raylib Window Flags overview video. It was created based on the script I wrote for it. I provide this as an alternative for those more interested in searching / skimming a document than watching and listening to a presenter.
+This repo holds the source used in my [Raylib Window Flags overview video](https://youtu.be/95hGkv6oxaU). It was created based on the script I wrote for it. I provide this as an alternative for those more interested in searching / skimming a document than watching and listening to a presenter.
 
 This demo uses Raygui to create an interface to list and control window flags, as well as rini to allow us to set flags to be set on window initialization before *rebooting* the app manually. This makes it easier to test combinations of flags without needing to recompile the app to see the effect.
 
