@@ -7,7 +7,7 @@ This repo holds the source used in my Raylib Window Flags overview video. It was
 
 This demo uses Raygui to create an interface to list and control window flags, as well as rini to allow us to set flags to be set on window initialization before *rebooting* the app manually. This makes it easier to test combinations of flags without needing to recompile the app to see the effect.
 
-![Screenshot](images\Screenshot.png)
+![Screenshot](images/Screenshot.png)
 
 For convenience a build.bat is included, though if you follow the instructions in my [Raylib with Notepad++ video](https://youtu.be/gj6OXFWYKTA) or simply if you are familiar with gcc it is trivial to build. This command assumes raylib is installed at `C:/raylib/raylib`, gcc is accessible from PATH and that the target is Windows:
 
