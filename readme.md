@@ -13,6 +13,14 @@ For convenience a build.bat is included, though if you follow the instructions i
 
 >gcc -o flag_demo.exe *.c C:\raylib\raylib\src\raylib.rc.data -s -static -Os -std=c99 -Wall -IC:\raylib\raylib\src -Iexternal -DPLATFORM_DESKTOP -lraylib -lopengl32 -lgdi32 -lwinmm
 
+## Dependencies
+
+[raysan5/raylib](https://github.com/raysan5/raylib)
+
+[raysan5/raygui](https://github.com/raysan5/raygui)
+
+[raysan5/rini](https://github.com/raysan5/rini)
+
 ## List of Window Flags
 
 All relevant flags can be found in the enum definition `ConfigFlags` in `raylib.h`:
